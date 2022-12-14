@@ -1,0 +1,216 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "hii", 
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "Which branches do you have?",
+        "What courses do you offer?",
+        "courses offered"
+      ],
+      "responses": [
+        "We have:\n1. Computer Science\n2. Information Technology\n3. Civil Engineering\n4. Mechanical Engineering\n5. Electrical Engineering\n6. Electronics and Electrical Engineering.",
+        "We offer Engineering in: \n1. Computer Science\n2. Information Technology\n3. Civil Engineering\n4. Mechanical Engineering\n5. Electrical Engineering\n6. Electronics and Electrical Engineering."
+      ]
+    },
+    {
+      "tag": "availibility",
+      "patterns": [
+        "Is Computer Science Branch available there?",
+        "Do you have Information Technology branch?"
+      ],
+      "responses": [
+        "Yes, we have that branch available."
+      ]
+    },
+    {
+      "tag": "Placement",
+      "patterns": [
+        "What are your placement stats?",
+        "what is your highest placement?",
+        "how much is your placement percentage?",
+        "what is your placement percentage",
+        "Placement stats"
+      ],
+      "responses": [
+        "For placement data you can refers to : https://jecrcfoundation.com/placement-stats"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is the college located?","The adress of the college?","The location of college?"
+      ],
+      "responses": [
+        "The college is located at Shri Ram ki Nangal via RIICO, Tonk Rd, Sitapura, Jaipur, Rajasthan 302022."
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "What are the faclities available?","Is facility available?","Facilities available"
+      ],
+      "responses": [
+        "The facilities available are:\nAcademics Facilities\nI.T. Facilities\nLibrary Facilities\nSports Facilities\nHostel Facilities\nMedical Facilities\nTransport Facilities\nCafeteria\nCampus tour Facility"
+      ]
+    },
+    {
+      "tag": "policies",
+      "patterns": [
+        "What are the policies there?","Policies","Available Policies?","policy"
+      ],
+      "responses": [
+        "For information on policies refer to the pdf: https://jecrcfoundation.com/pdf/Policy%20Booklet.pdf"
+      ]
+    },
+    {
+      "tag": "internship",
+      "patterns": [
+        "what are internship opportunities?","Internship opportunities","Internship availibility","Internships"
+      ],
+      "responses": [
+        "Our On campus Internship Partners: \nInternshala\nTechieNest\nJECRC Training and Placement Department\nRed hat\nCADD Centre\nRajapark\nForsk Technologies\nBABA Automobile\nCyberops\nSambodhi Tech Solution"
+      ]
+    },
+    {
+      "tag": "Event",
+      "patterns": [
+        "what are the main event of your college","events"
+      ],
+      "responses": [
+        "we have a Annual event RENAISSAINCE which is a 3 day event celebrrated with full excitement."
+      ]
+    },
+    {
+      "tag": "Fees",
+      "patterns": [
+        "Fee structure of the college","fee structure"
+      ],
+      "responses": [
+        "We have a nominal fee structure as per guidlines of RTU, for details fee structure refer to: https://jecrcfoundation.com/assets/img/Fee-Structure-2020-21.png"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "about college","about","college info"
+      ],
+      "responses": [
+        "Jaipur Engineering College and Research Centre is a Private College located in Jaipur, Rajasthan. This college was established in 2000 and is affiliated to Rajasthan Technical University, Kota. JECRC is a NAAC Accredited College. At present, JECRC, Jaipur offers B.Tech and B.Tech Lateral Entry program at the UG level."
+      ]
+    },
+    {
+      "tag": "clubs",
+      "patterns": [
+        "clubs present","clubs in college"
+      ],
+      "responses": [
+        "In JECRC we have a variety of social, cultural and technical clubs doing geeat work with a large community of group members.Some clubs are:\nTechnical Clubs: Xananoids, Stargent.\nSocial Clubs are: Suhasini, Soch, Zarurat, Aashayein.\nCultural Clubs: Salsa, Face and Footlights.\nArts Club: Atrangi, PhotoFreaks."
+      ]
+    },
+    {
+      "tag": "about Bot",
+      "patterns": [
+        "what can you do for me","what task can you perform?", "what can you do?"
+      ],
+      "responses": [
+        "I can answer your FAQs related to the college"
+      ]
+    },
+    {
+      "tag": "activities",
+      "patterns": [
+        "what are the activites performed in the college?","activites performed", "activites in college"
+      ],
+      "responses": [
+        "College organizes a number of activities including Hackathons, Coding compititions, Google cloud source, Blood donation camps, club events etc. "
+      ]
+    },
+    {
+      "tag": "ranking",
+      "patterns": [
+        "ranking of college","college rank","college rating"
+      ],
+      "responses": [
+        "JECRC is: \n1. Ranked 106 for B.Tech by Indiatoday 2020.\n2. Ranked 83 for B.Tech by Outlook 2019.\n3. Ranked 101 for B.Tech by The Week 2020.\nALso JECRC is ranked 1st among the colleges under RTU."
+      ]
+    },
+    {
+      "tag": "bus",
+      "patterns": [
+        "is bus service available?","bus service","bus available"
+      ],
+      "responses": [
+        "We provide bus pickup and drop facilities covering a large portion of the city"
+      ]
+    },
+    {
+      "tag": "chairperson",
+      "patterns": [
+        "Who is the chairperson of the college","chairperson","director of the college","director","founder","founder of the college"
+      ],
+      "responses": [
+        "Dr.Arpit Agarwal is the Director and the Chairperson of the college."
+      ]
+    },
+    {
+      "tag": "Principal",
+      "patterns": [
+        "Who is the Principal of the college","principal of college"
+      ],
+      "responses": [
+        "Dr. V.K. Chandna is the Principal of the college."
+      ]
+    },
+    {
+      "tag": "campus",
+      "patterns": [
+        "campus area","about campus"
+      ],
+      "responses": [
+        "A green environment friendly campus covering a decent area having four blocks, sports ground, temple, cafeteria space, parking lot etc."
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "hostel life","hostel facility","is hostel facility available"
+      ],
+      "responses": [
+        "Our college has 1 Girls and 2 Boys hostel having 2 sharing as well as 3 sharing rooms. The 3 seater hostel has a combined washroom whereas the 2- seater one has one common washroom for around 12-14 rooms. The quality of the mess food is decent."
+      ]
+    }
+
+
+  ]
+}
